@@ -1,56 +1,45 @@
 'use client'
 import React from 'react';
-import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-red-500 to-orange-500 text-white py-20">
-      <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
-          <div className="space-y-8">
-            <h1 className="text-5xl font-bold leading-tight">
-              Transform Your Business with Modern Solutions
-            </h1>
-            <p className="text-lg text-red-100">
-              Empower your company with cutting-edge technology and innovative strategies designed for the digital age.
-            </p>
-            <div className="flex gap-4">
-              <button className="px-8 py-3 bg-white text-red-500 rounded-lg font-semibold hover:bg-red-50 transition-colors">
-                Get Started
-              </button>
-              <button className="px-8 py-3 border-2 border-white rounded-lg font-semibold hover:bg-white/10 transition-colors">
-                Learn More
-              </button>
-            </div>
+    <section className="pt-24 pb-12 bg-white">
+      <div className="container mx-auto px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Main Heading */}
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+            Transform Your Digital Presence Today
+          </h1>
+          
+          {/* Subheading */}
+          <p className="text-lg md:text-xl text-gray-600 mb-8">
+            Create stunning landing pages in minutes with our intuitive platform. 
+            No coding required.
+          </p>
+          
+          {/* CTA Section */}
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <button className="w-full sm:w-auto bg-red-500 text-white px-8 py-4 rounded-md text-lg font-semibold hover:bg-red-600 transition-colors">
+              Start Free Trial
+            </button>
+            <button className="w-full sm:w-auto border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-md text-lg font-semibold hover:border-red-500 hover:text-red-500 transition-colors">
+              Watch Demo
+            </button>
           </div>
-
-          {/* Right Content */}
-          <div className="relative h-[400px] md:h-[500px]">
-            <div className="absolute inset-0 bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden">
-              <div className="grid grid-cols-2 gap-4 p-6">
-                {/* Feature Cards */}
-                {[
-                  { title: 'Analytics', value: '99%', desc: 'Accuracy' },
-                  { title: 'Growth', value: '2x', desc: 'Year over Year' },
-                  { title: 'Users', value: '10k+', desc: 'Active Daily' },
-                  { title: 'ROI', value: '300%', desc: 'Average Return' }
-                ].map((item, index) => (
-                  <div key={index} className="bg-white/10 p-4 rounded-lg backdrop-blur-sm">
-                    <h3 className="text-lg font-semibold">{item.title}</h3>
-                    <p className="text-3xl font-bold mt-2">{item.value}</p>
-                    <p className="text-sm text-red-100">{item.desc}</p>
-                  </div>
-                ))}
-              </div>
+          
+          {/* Social Proof */}
+          <div className="mt-12">
+            <p className="text-sm text-gray-500 mb-4">Trusted by leading companies worldwide</p>
+            <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
+              {/* Replace these with actual company logos */}
+              <div className="w-24 h-8 bg-gray-200 rounded"></div>
+              <div className="w-24 h-8 bg-gray-200 rounded"></div>
+              <div className="w-24 h-8 bg-gray-200 rounded"></div>
+              <div className="w-24 h-8 bg-gray-200 rounded"></div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Background Decorations */}
-      <div className="absolute top-0 right-0 w-48 h-48 bg-orange-400/20 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-red-600/20 rounded-full blur-3xl" />
     </section>
   );
 };
