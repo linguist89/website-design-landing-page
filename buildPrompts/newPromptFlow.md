@@ -52,7 +52,55 @@ src/app/
     └── page.js
 
 # Step 8:
-In each pageComponents folder add a blank HeaderInstructions.md file, a blank HeroInstructions.md file and a blank StyleInstructions.md file.
+In each pageComponents folder add a blank HeaderInstructions.md file, a blank HeroInstructions.md file and a blank StyleInstructions.md file. The structure should be as follows:
+src/app/
+├── hd1hr1st1/
+│   └── pageComponents/
+│       ├── Header.js
+│       ├── HeaderInstructions.md
+│       ├── Hero.js
+│       ├── HeroInstructions.md
+│       └── StyleInstructions.md
+├── hd2hr2st2/
+│   └── pageComponents/
+│       ├── Header.js
+│       ├── HeaderInstructions.md
+│       ├── Hero.js
+│       ├── HeroInstructions.md
+│       └── StyleInstructions.md
+├── hd3hr3st3/
+│   └── pageComponents/
+│       ├── Header.js
+│       ├── HeaderInstructions.md
+│       ├── Hero.js
+│       ├── HeroInstructions.md
+│       └── StyleInstructions.md
+├── hd4hr4st4/
+│   └── pageComponents/
+│       ├── Header.js
+│       ├── HeaderInstructions.md
+│       ├── Hero.js
+│       ├── HeroInstructions.md
+│       └── StyleInstructions.md
+└── hd5hr5st5/
+    └── pageComponents/
+        ├── Header.js
+        ├── HeaderInstructions.md
+        ├── Hero.js
+        ├── HeroInstructions.md
+        └── StyleInstructions.md
+
+# Section 3:
+# Step 9:
+Add the instructions from from the styles json files located in utils to their appropriate instruction markdown files in the relevant pages.
+
+# Step 10:
+Do it for all the other pages.
+
+# Section 4:
+# Step 11:
+Create the Hero.js and Header.js files in each pageComponents folder with the instructions from the instructions.md files following the style instructions in the styleInstructions.md file.
+
 
 
 
