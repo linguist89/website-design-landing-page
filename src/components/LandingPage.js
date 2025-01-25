@@ -34,7 +34,7 @@ const LandingPage = () => {
       heroUse: 'Service showcase with testimonials',
       styleUse: 'Professional services - Clean minimal design'
     },
-    // New pages
+    // First set of variations
     {
       path: '/hd1hr1st2',
       headerUse: 'Left-aligned logo with clean navigation',
@@ -64,12 +64,43 @@ const LandingPage = () => {
       headerUse: 'Overlay header with transparent background',
       heroUse: 'Interactive hero with animations',
       styleUse: 'Tech startups - Bold red-orange energy'
+    },
+    // New skateboarding themed variations
+    {
+      path: '/hd1hr1st3',
+      headerUse: 'Skate Style - Clean navigation with bold branding',
+      heroUse: 'Community-focused lead capture for skaters',
+      styleUse: 'Dynamic and energetic with rich earthy tones'
+    },
+    {
+      path: '/hd2hr2st4',
+      headerUse: 'EcoSkate - Balanced eco-conscious navigation',
+      heroUse: 'Sustainable skateboarding product showcase',
+      styleUse: 'Eco-friendly with muted green palette'
+    },
+    {
+      path: '/hd3hr3st5',
+      headerUse: 'SkateVids - Tutorial-focused search navigation',
+      heroUse: 'Video tutorials with pro skater content',
+      styleUse: 'Tranquil blues for focused learning'
+    },
+    {
+      path: '/hd4hr4st1',
+      headerUse: 'StreetSkate - Dynamic sticky navigation',
+      heroUse: 'Skate spot finder with image overlays',
+      styleUse: 'Bold red-orange for urban energy'
+    },
+    {
+      path: '/hd5hr5st2',
+      headerUse: 'ProSkate - Immersive overlay menu',
+      heroUse: 'Interactive academy showcase',
+      styleUse: 'Professional blues for elite training'
     }
   ];
 
   return (
     <div className="p-8 max-w-7xl mx-auto">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 p-4">
         {pages.map((page, index) => (
           <div key={index} className="flex flex-col gap-4">
             <Link 
