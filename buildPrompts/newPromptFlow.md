@@ -125,7 +125,7 @@ See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
     at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15955:7)
     at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:44:48)
 
-
-
-
+# Section 5:
+# Step 14:
+In the LandingPage.js, it's loading immages, but instead, make it load the preview of the page that is links to.
 
