@@ -1,6 +1,5 @@
-import React from 'react';
-import Header from './pageComponents/Header';
-import Hero from './pageComponents/Hero';
+import Header from './pageComponents/Header'
+import Hero from './pageComponents/Hero'
 
 export default function Page() {
   return (
@@ -8,5 +7,5 @@ export default function Page() {
       <Header />
       <Hero />
     </main>
-  );
+  )
 } 
