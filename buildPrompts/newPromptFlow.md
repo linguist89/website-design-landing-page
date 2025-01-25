@@ -132,3 +132,17 @@ In the LandingPage.js, it's loading immages, but instead, make it load the previ
 # Step 15:
 Instead of the page names, remove those in the images and add underneath the usefulness of header, hero and style used.
 
+# Section 6:
+# Step 16:
+[Add newPromptFlow.md, styles.json, heroStyles.json, headerStyles.json]
+Steps 2 to 13 in the newPromptFlow.md shows the way in which we created the first 5 pages. Create an additional 5 with the same combinations for header and hero, but with option + 1 for styles. e.i. 
+
+hd1hr1st2, hd2hr2st3, hd3hr3st4, hd4hr4st5, hd5hr5st1.
+
+For each page, follow the instructions to create all the components, add them to the pages and display them on the main LandingPage.js
+
+# Step 17:
+[It asked a question to which I replied "All of the above" which was an option given]
+
+# Step 18
+Check for all Hero and Header.js components if they include 'use client'. If they don't then add it to the top
