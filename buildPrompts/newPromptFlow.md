@@ -129,3 +129,6 @@ See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
 # Step 14:
 In the LandingPage.js, it's loading immages, but instead, make it load the preview of the page that is links to.
 
+# Step 15:
+Instead of the page names, remove those in the images and add underneath the usefulness of header, hero and style used.
+
