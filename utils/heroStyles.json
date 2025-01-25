@@ -1,0 +1,53 @@
+[
+    {
+      "option": "Option 1",
+      "hero_layout": "Minimalist Lead Capture Hero",
+      "details": {
+        "design_style": "Clean and focused with minimal distractions.",
+        "content_features": "Clear value proposition, prominent call-to-action, and optional social proof elements.",
+        "mobile_styling": "Simplified layout with a stacked design, ensuring the call-to-action and value proposition remain above the fold."
+      },
+      "usefulness": "Perfect for landing pages, lead generation campaigns, or services focused on clear user actions."
+    },
+    {
+      "option": "Option 2",
+      "hero_layout": "Product Showcase Hero",
+      "details": {
+        "design_style": "Focus on highlighting products with a visually appealing grid layout.",
+        "content_features": "Featured product section, benefits grid, customer testimonials, clear pricing, and multiple call-to-action points.",
+        "mobile_styling": "Grid restructured into a single-column format for easy scrolling, with CTAs placed at the bottom of each section for accessibility."
+      },
+      "usefulness": "Best suited for e-commerce platforms, SaaS products, or brands emphasizing detailed product features."
+    },
+    {
+      "option": "Option 3",
+      "hero_layout": "Video-Centric Hero",
+      "details": {
+        "design_style": "Engaging layout with a hero video as the focal point.",
+        "content_features": "Video section supported by key features, social proof elements, and clear next steps.",
+        "mobile_styling": "Video resized or replaced with a static image, ensuring fast load times on mobile devices."
+      },
+      "usefulness": "Ideal for brands wanting to showcase their story, product demonstrations, or high-impact marketing campaigns."
+    },
+    {
+      "option": "Option 4",
+      "hero_layout": "Image-Centric Hero with Overlay Text",
+      "details": {
+        "design_style": "Full-screen hero image with overlay text for a striking first impression.",
+        "content_features": "Bold headline, subheadline, and a clear call-to-action layered over the image.",
+        "mobile_styling": "Image cropped for better focus, and overlay text resized for readability on smaller screens."
+      },
+      "usefulness": "Great for creative portfolios, photography websites, or brands emphasizing strong visuals."
+    },
+    {
+      "option": "Option 5",
+      "hero_layout": "Interactive Hero with Scroll Animations",
+      "details": {
+        "design_style": "Interactive and dynamic with elements that respond to scrolling.",
+        "content_features": "Layered design featuring animations, dynamic text, and interactive call-to-action buttons.",
+        "mobile_styling": "Animations simplified or replaced with static content for performance optimization on mobile devices."
+      },
+      "usefulness": "Best for innovative brands, tech companies, or creative agencies aiming for a modern, high-tech impression."
+    }
+  ]
+  
